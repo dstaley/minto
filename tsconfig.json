@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "allowJs": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "declaration": false
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "sourceMap": true
+    }
+  },
+  "include": ["./src/"]
+}
